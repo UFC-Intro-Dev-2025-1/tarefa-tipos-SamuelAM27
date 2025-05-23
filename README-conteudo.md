@@ -220,7 +220,7 @@ console.log(pessoa['idade']) // 30
 Em TypeScript, é possível criar tipos personalizados de objetos usando interfaces.
 
 ```typescript
-interface Pessoa {
+interface  Pessoa { //ou pode mudar interface por type
     nome: string;
     idade: number;
 }
